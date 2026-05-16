@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "aa123b45-67c8-9012-34d5-e6789f0123b4",
+		"name": "Instagram Clone API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Root Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						""
+					]
+				},
+				"description": "Checks if the server is running."
+			},
+			"response": []
+		}
+	]
+}
