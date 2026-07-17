@@ -50,3 +50,9 @@ async def get_all_posts(limit: int=None):
     if limit:
         return dict(list(textPosts.items())[:limit])
     return textPosts
+
+@app.get("/posts/{id}")
+def get_post(id: int):
+    if id not in text_posts:
+        raise HTTPException(status_code=404, detail="Post not found")
+    
