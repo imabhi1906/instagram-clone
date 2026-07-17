@@ -1,0 +1,15 @@
+{
+  "workspace": {
+    "id": "60d90221-7450-4ef5-bfc8-42453b860780"
+  },
+  "entities": {
+    "environments": [],
+    "flows": [],
+    "globals": [],
+    "mocks": [],
+    "specs": [],
+    "collections": [
+      "../Instagram_Clone.postman_collection.json"
+    ]
+  }
+}
